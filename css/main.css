@@ -241,10 +241,13 @@ a .span {
     max-width: 528px;
     background-color: var(--white-text);
     padding: 40px;
+
 }
 
 .modal-form {
     background-color: var(--white-text);
+    outline: none;
+    border: none;
 }
 .close-buttom {
     position: absolute;
@@ -279,7 +282,7 @@ a .span {
     margin-bottom: 12px;
     font-size: 20px;
     line-height: 1.15;
-    text-align: center;
+    text-align: left;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -289,6 +292,9 @@ a .span {
 
 }
 
+label {
+    text-align: left;
+}
 .modal-form {
     width: 448px;
     height: 342px;
@@ -317,6 +323,10 @@ a .span {
     position: relative;
 }
 
+.input-thumb:hover,
+.input-thumb:focus {
+    background-color: var(--accent-color);
+}
 .input-form {
 
     width: 100%;
@@ -346,11 +356,14 @@ a .span {
 }
 
 .check {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
 }
 
+.check-input [
+    padding-right: 1px;
+]
 .check-input:checked + .icon-check {
     background-color: var(--accent-color);
     background-size: contain;
@@ -363,7 +376,11 @@ a .span {
     border: 2px solid #2a2a2a;
 }
 
-.modal-form button {
+.uslov {
+    padding-left: 1px;
+    color: var(--accent-color);
+}
+.modal-form.button {
     width: 200px;
     height: 50px;
     border: none;
@@ -379,7 +396,7 @@ a .span {
     text-align: center;
     letter-spacing: 0.06em;
 
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--white-text);
@@ -393,6 +410,8 @@ a .span {
 .modal-form button:focus {
     background-color: var(--accent-color);
 }
+
+
 
 /*SECTION*/
 .section-one {
