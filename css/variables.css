@@ -1,0 +1,12 @@
+:root{
+    --white-text: #FFFFFF;
+    --grey-text: #757575;
+    --grey-text-op06:rgba(255, 255, 255, 0.6);
+    --black-text: #212121;
+    --accent-color: #2196F3;
+    --baground-color: #2F303A;
+    --baground-second: #F5F4FA;
+    --card-set-gap: 30px;
+    --social-icon: rgba(255, 255, 255, 0.1);
+    --social-color: #AFB1B8;
+}
