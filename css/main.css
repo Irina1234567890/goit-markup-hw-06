@@ -267,12 +267,12 @@ a .span {
 
 .icon-close {
     position: absolute;
-    top: -2px;
-    right: -1px;
+    top: 2px;
+    right: 4px;
     cursor: pointer;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
 }
 .icon-close:hover,
 .icon-close:focus {
@@ -298,7 +298,9 @@ label {
 }
 
 .form-field {
-    margin-bottom: 28px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -317,6 +319,8 @@ label {
 }
 
 .input-thumb {
+    margin: 0;
+    padding: 0;
     content: "";
     position: relative;
 }
@@ -360,7 +364,14 @@ label {
 .textarea:focus {
     color: var(--accent-color);
 }
+
+.checked {
+    margin: 0;
+    padding: 0;
+}
 .check {
+    margin: 0;
+    padding: 0;
     margin-bottom: 30px;
     color: var(--grey-text);
     font-size: 12px;
