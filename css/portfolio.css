@@ -559,9 +559,8 @@ transform: translateY(-100%);
 }
 
 .icon-send {
-    position: absolute;
-    content: "";
     display: inline-block;
     margin-left: 10px;
     fill: currentColor;
+    transform: translateY(9px);
 }
