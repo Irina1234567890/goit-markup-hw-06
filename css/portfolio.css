@@ -556,9 +556,13 @@ transform: translateY(-100%);
     font-size: 16px;
     line-height: 1.88;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 .icon-send {
+    margin: 0;
+    padding: 0;
     display: inline-block;
     margin-left: 10px;
     fill: currentColor;
